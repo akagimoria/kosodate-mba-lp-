@@ -45,7 +45,7 @@ ul{list-style:none;padding:0}
 .section-title-light{color:var(--text-light)}
 
 /* Hero */
-.hero{position:relative;min-height:100vh;display:flex;align-items:center;padding:80px 0 60px;overflow:hidden}
+.hero{position:relative;min-height:auto;display:flex;align-items:center;padding:48px 0 48px;overflow:hidden}
 .hero-img{position:absolute;inset:0;background-size:cover;background-position:center;background-color:#022a1c}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(160deg,rgba(2,42,28,.85) 0%,rgba(4,82,54,.6) 60%,rgba(4,82,54,.3) 100%)}
 .hero-body{position:relative;z-index:1;width:100%;max-width:var(--max-w);margin:0 auto;padding:0 20px}
