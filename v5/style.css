@@ -158,8 +158,8 @@ ul{list-style:none;padding:0}
 
 /* Ikumo */
 .ikumo-lead{font-size:13px;line-height:1.9;color:var(--text-secondary);margin-bottom:22px}
-.ikumo-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.ikumo-photo-wrap{display:flex;flex-direction:column;gap:5px}
+.ikumo-grid{display:flex;flex-wrap:wrap;gap:10px}
+.ikumo-photo-wrap{width:calc(50% - 5px);display:flex;flex-direction:column;gap:5px}
 .ikumo-photo{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;opacity:.92}
 .ikumo-caption{font-size:11px;color:var(--text-muted);text-align:center;font-weight:700}
 
