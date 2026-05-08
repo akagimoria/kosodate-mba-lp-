@@ -191,6 +191,8 @@ details[open] .faq-q::after{content:'－'}
 .footer-inner{display:flex;flex-direction:column;gap:6px;align-items:center;text-align:center}
 .footer-logo{font-family:'Noto Serif JP',serif;font-size:18px;font-weight:700;color:#fff}
 .footer-sub{font-size:11px;color:rgba(232,244,238,.4);margin-top:2px}
+.footer-privacy{font-size:11px;color:rgba(232,244,238,.5);text-decoration:underline;margin-top:8px;display:block}
+.footer-privacy:hover{color:rgba(232,244,238,.8)}
 .footer-copy{font-size:11px;color:rgba(232,244,238,.3);margin-top:6px}
 
 /* Sticky CTA */
