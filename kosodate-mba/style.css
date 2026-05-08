@@ -144,7 +144,7 @@ ul{list-style:none;padding:0}
 .tools-name small{display:block;font-weight:400;color:var(--text-muted);font-size:10px;margin-top:2px}
 
 /* Present Banner */
-.present-banner{width:100%;border-radius:var(--radius);margin-top:48px;opacity:.88}
+.present-banner{width:100%;border-radius:var(--radius);margin-top:72px;opacity:.88}
 
 /* Voice */
 .voice-list{display:flex;flex-direction:column;gap:16px}
