@@ -56,22 +56,7 @@ ul{list-style:none;padding:0}
 .hero-cta-note{font-size:11px;color:rgba(232,244,238,.65);text-align:center;letter-spacing:.04em}
 
 /* Two Methods */
-.methods-en{font-size:10px;font-weight:700;letter-spacing:.18em;color:var(--text-muted);margin-bottom:10px}
-.method-block{background:#fff;border:1.5px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);margin-bottom:4px}
-.method-block-header{display:flex;align-items:center;gap:12px;padding:16px 18px}
-.method-block-header.parent{background:linear-gradient(135deg,var(--green-dark) 0%,var(--green) 100%)}
-.method-block-header.child{background:linear-gradient(135deg,#1a4a6e 0%,#2b6cb0 100%)}
-.method-block-num{font-family:'Noto Serif JP',serif;font-size:13px;font-weight:900;color:rgba(255,255,255,.5)}
-.method-block-header h3{font-family:'Noto Serif JP',serif;font-size:18px;font-weight:700;color:#fff;margin:0}
-.method-block-body{padding:18px 16px}
-.method-block-lead{font-family:'Noto Serif JP',serif;font-size:15px;font-weight:700;color:var(--text-primary);margin-bottom:12px}
-.method-tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:14px}
-.method-tag{background:var(--green-pale);color:var(--green-dark);border:1px solid var(--green-light);font-size:11px;font-weight:700;padding:4px 11px;border-radius:20px}
-.brain-grid{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:14px}
-.brain-tag{background:#eff6ff;color:#1e40af;border:1px solid #bfdbfe;font-size:11px;font-weight:700;padding:4px 11px;border-radius:20px}
-.method-block-desc{font-size:12px;line-height:1.85;color:var(--text-secondary)}
-.method-plus{text-align:center;font-size:28px;font-weight:700;color:var(--green);padding:4px 0;line-height:1}
-.methods-note{font-size:10px;color:var(--text-muted);text-align:center;margin-top:20px;line-height:1.7}
+.two-methods-img{width:100%;border-radius:var(--radius)}
 
 /* Empathy */
 .empathy-list{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
