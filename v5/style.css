@@ -59,7 +59,7 @@ ul{list-style:none;padding:0}
 .hero-cta-note{font-size:11px;color:rgba(232,244,238,.65);text-align:center;letter-spacing:.04em}
 
 /* Event Banner */
-.event-banner{width:100%;display:block}
+.event-banner{width:75%;display:block;margin:0 auto;opacity:.85;border-radius:8px}
 
 /* Two Methods */
 .two-methods-img{width:100%;border-radius:var(--radius)}
