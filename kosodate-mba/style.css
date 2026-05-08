@@ -53,7 +53,7 @@ ul{list-style:none;padding:0}
 .section-title-light{color:var(--text-light)}
 
 /* Hero */
-.hero{background:var(--charcoal)}
+.hero{background:#1e4a30}
 .hero-image{width:100%;max-width:var(--max-w);margin:0 auto;display:block}
 .hero-cta-wrap{max-width:var(--max-w);margin:0 auto;padding:24px 20px 32px;display:flex;flex-direction:column;align-items:center;gap:10px}
 .hero-cta-note{font-size:11px;color:rgba(232,244,238,.65);text-align:center;letter-spacing:.04em}
