@@ -118,7 +118,7 @@ ul{list-style:none;padding:0}
 .mid-cta{background:linear-gradient(135deg,var(--green-dark) 0%,var(--green) 100%);padding:40px 20px;text-align:center}
 .mid-cta .container{display:flex;flex-direction:column;gap:16px;align-items:center}
 .mid-cta-text{font-family:'Noto Serif JP',serif;font-size:18px;font-weight:700;color:#fff;line-height:1.65}
-.mid-cta .btn-cta-white{max-width:320px}
+.mid-cta .btn-cta-white{max-width:320px;white-space:nowrap;font-size:14px}
 
 /* Curriculum */
 .program-note{font-size:13px;line-height:1.85;color:var(--text-secondary);margin-bottom:24px}
