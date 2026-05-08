@@ -2,11 +2,11 @@
 /* Theme: Deep Green × Gold — warm, trustworthy, professional */
 
 :root {
-  --green:        #1a5c3a;
-  --green-dark:   #0d3d26;
-  --green-mid:    #236b45;
-  --green-light:  #c8e6d4;
-  --green-pale:   #edf7f2;
+  --green:        #045236;
+  --green-dark:   #022a1c;
+  --green-mid:    #0a6e48;
+  --green-light:  #b8d8c4;
+  --green-pale:   #e8f4ee;
   --charcoal:     #0d1f18;
   --charcoal-mid: #1a3326;
   --gold:         #c8970a;
@@ -17,11 +17,11 @@
   --text-secondary:#3a5a48;
   --text-muted:   #7a9a86;
   --text-light:   #e8f4ee;
-  --border:       #c8e6d4;
+  --border:       #b8d8c4;
   --radius:       10px;
   --max-w:        480px;
-  --shadow-sm:    0 2px 10px rgba(26,92,58,.08);
-  --shadow-md:    0 6px 28px rgba(26,92,58,.14);
+  --shadow-sm:    0 2px 10px rgba(4,82,54,.08);
+  --shadow-md:    0 6px 28px rgba(4,82,54,.14);
 }
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -34,10 +34,13 @@ ul{list-style:none;padding:0}
 .container{width:100%;max-width:var(--max-w);margin:0 auto;padding:0 20px}
 
 /* Buttons */
-.btn-cta{display:block;width:100%;padding:17px 20px;background:var(--green);color:#fff;font-family:'Noto Serif JP',serif;font-size:16px;font-weight:700;letter-spacing:.05em;text-align:center;border-radius:8px;border:none;cursor:pointer;transition:background .2s,transform .15s,box-shadow .2s;box-shadow:0 4px 16px rgba(26,92,58,.35)}
-.btn-cta:hover{background:var(--green-mid);transform:translateY(-1px);box-shadow:0 6px 24px rgba(26,92,58,.45)}
+.btn-cta{display:block;width:100%;padding:19px 20px;background:linear-gradient(135deg,#f5a623 0%,#e8891a 100%);color:#fff;font-family:'Noto Serif JP',serif;font-size:17px;font-weight:700;letter-spacing:.06em;text-align:center;border-radius:50px;border:none;cursor:pointer;transition:transform .15s,box-shadow .2s;box-shadow:0 6px 20px rgba(232,137,26,.5);position:relative}
+.btn-cta::after{content:'';display:block;position:absolute;inset:0;border-radius:50px;box-shadow:inset 0 1px 0 rgba(255,255,255,.3)}
+.btn-cta:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(232,137,26,.6)}
+.btn-cta:active{transform:translateY(0)}
 .btn-cta-white{background:#fff;color:var(--green-dark);box-shadow:0 4px 16px rgba(0,0,0,.15)}
-.btn-cta-white:hover{background:var(--green-pale);color:var(--green-dark)}
+.btn-cta-white::after{display:none}
+.btn-cta-white:hover{transform:translateY(-2px);background:var(--green-pale);box-shadow:0 8px 24px rgba(0,0,0,.2)}
 
 /* Sections */
 .section{padding:64px 0}
